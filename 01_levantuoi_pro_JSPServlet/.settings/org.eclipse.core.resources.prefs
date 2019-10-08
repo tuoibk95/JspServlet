@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//WebContent/index.jsp=UTF-8
-encoding//src/controller/ListUserServlet.java=UTF-8
-encoding//src/model/CommonDB.java=UTF-8
-encoding//src/model/UserDatabase.java=UTF-8
+encoding//src/controller/ListUserController.java=UTF-8
+encoding//src/model/CommonDBModel.java=UTF-8
+encoding//src/model/UserDatabaseModel.java=UTF-8
+encoding/<project>=UTF-8

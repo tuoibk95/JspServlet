@@ -3,12 +3,12 @@
 	<display-name>Hello World</display-name>
 	<servlet>
 		<servlet-name>listUser</servlet-name>
-		<servlet-class>controller.ListUserServlet</servlet-class>
+		<servlet-class>controller.ListUserController</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>listUser</servlet-name>
-		<url-pattern>/listUser</url-pattern>
+		<url-pattern>/View/listUser</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>

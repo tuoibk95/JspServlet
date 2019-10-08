@@ -10,7 +10,7 @@ import java.sql.Date;
  * Description
  * @author TuoiLV
  */
-public class ListUser {
+public class UserModel {
 	public String ID;
 	public String Name;
 	public Date Birthday;
@@ -18,7 +18,7 @@ public class ListUser {
 	/**
 	 * @return the iD
 	 */
-	public ListUser() {
+	public UserModel() {
 	}
 	
 	public String getID() {

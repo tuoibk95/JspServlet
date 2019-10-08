@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Lê Văn Tươi</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1><a href="ListUserController">List Users</a></h1>
+	<h1>Error</h1>
 </body>
 </html>

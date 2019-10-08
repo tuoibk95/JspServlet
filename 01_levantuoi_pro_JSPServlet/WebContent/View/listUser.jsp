@@ -1,7 +1,7 @@
-<%@page import="model.ListUser"%>
-<%@page import="model.UserDatabase"%>
+<%@page import="model.UserModel"%>
+<%@page import="model.UserDatabaseModel"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="controller.ListUserServlet"%>
+<%@page import="controller.ListUserController"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
 </head>
 <body>
 	<h1 align="center" style="border-collapse: collapse;" width="80%" align="center">List User</h1>
-	<%
+	<%--
 		ArrayList<ListUser> list = (ArrayList) request.getAttribute("ListUser");
 		out.println("<table border = 1>");
 		
@@ -25,7 +25,7 @@
 			out.println("</tr>");
 		}
 		out.println("</table>");
-	%>
+	--%>
 	
 	<table border="1" style="border-collapse: collapse;" width="80%" align="center">
 		<tr>
@@ -36,9 +36,8 @@
 		</tr>
 
 		<%
-			ArrayList<ListUser> list1 = (ArrayList) request.getAttribute("ListUser");
-			for (ListUser l : list1) {
-			
+			ArrayList<UserModel> list = (ArrayList) request.getAttribute("ListUser");
+			for (UserModel l : list) {
 		%>
 
 		<tr>
